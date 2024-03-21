@@ -27,4 +27,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         source: '*.*'
-        target: /var/www/auto-live
+        target: /var/www/github-actions
